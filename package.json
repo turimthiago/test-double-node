@@ -1,0 +1,33 @@
+{
+  "name": "duble-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "test": "jest --passWithNoTests --no-cache --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.4.13",
+    "@types/sinon": "^10.0.2",
+    "jest": "^27.0.6",
+    "jest-mock-extended": "^2.0.2-beta2",
+    "sinon": "^11.1.2",
+    "strong-mock": "^7.1.2",
+    "ts-jest": "^27.0.4",
+    "ts-mockito": "^2.6.1",
+    "ts-sinon": "^2.0.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "omnimock": "^1.0.0-rc.2",
+    "safe-mock": "^0.2.11",
+    "ts-node": "^10.2.0",
+    "tslib": "^2.3.1"
+  }
+}
